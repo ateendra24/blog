@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+        /* Firefox */
+    }
+}
+
+.CONTENT {
+    h2 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    p,
+    ul,
+    ol {
+        margin-bottom: 12px;
+    }
+
+    ul {
+        list-style: inside;
+        margin-left: 12px;
+    }
+
+    ol {
+        list-style: decimal;
+        margin-left: 26px;
+    }
+
+    pre {
+        background-color: rgb(232, 232, 232);
+        margin-bottom: 8px;
+    }
+
+
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 12px;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+
+}
+
+.dark .CONTENT pre {
+    background-color: rgb(40, 40, 40);
+}
+
+.dark .CONTENT tr:nth-child(even) {
+    background-color: rgb(40, 40, 40);
+}
