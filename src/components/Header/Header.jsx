@@ -52,9 +52,7 @@ function Header() {
                 <li key={item.name}>
                   <NavLink
                     to={item.slug}
-                    // className='inline-block px-4 py-2 text-black font-semibold rounded-full ml-4 text-nowrap dark:text-white hover:underline'
-
-                    className={({isActive}) =>
+                    className={({ isActive }) =>
                       ` ${isActive ? "underline" : "no-underline"} inline-block px-4 py-2 text-black font-semibold rounded-full ml-4 text-nowrap dark:text-white hover:underline`
                     }
                   >

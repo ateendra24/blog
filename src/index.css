@@ -45,8 +45,6 @@
         margin-bottom: 8px;
     }
 
-
-
     table {
         width: 100%;
         border-collapse: collapse;
@@ -63,8 +61,6 @@
     tr:nth-child(even) {
         background-color: #dddddd;
     }
-
-
 }
 
 .dark .CONTENT pre {

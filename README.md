@@ -18,10 +18,12 @@ This is a blog website built using **React** for the frontend and **Appwrite** f
 - **Rich Text Editor**: TinyMCE
 
 ## Screenshots
-| ![Login](/public/images/login.png) | ![Home](/public/images/homepage.png) |
-|------------------------------------|--------------------------------------|
-| ![Signup](/public/images/post.png) | ![My Posts](/public/images/post-dark.png) |
-| ![Add Post](/public/images/addpost.png) | ![Edit Post](/public/images/editpost.png) |
+![Login](/public/images/login.png) 
+![Home](/public/images/homepage.png)
+![Signup](/public/images/post.png)
+![My Posts](/public/images/post-dark.png) 
+![Add Post](/public/images/addpost.png)
+![Edit Post](/public/images/editpost.png) 
 
 ## Installation
 
@@ -90,5 +92,4 @@ Contributions are welcome! Feel free to submit a PR with improvements or bug fix
 This project is licensed under the **MIT License**.
 
 ## Contact
-For any queries or suggestions, reach out to https://ateendra.vercel.app/contact-me.
-
+For any queries or suggestions, reach out to [Contact Me](https://ateendra.vercel.app/contact-me).

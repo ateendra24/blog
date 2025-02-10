@@ -14,30 +14,6 @@ function Home() {
     });
   }, []);
 
-  // if (posts.length === 0) {
-  //   return (
-  //     <div className="w-full py-8 mt-4 text-center min-h-[70vh] dark:text-white">
-
-  //       <Container>
-  //         <div className="flex flex-wrap">
-  //           <div className="p-2 w-full">
-  //             <h1 className="text-2xl font-bol">
-
-  //               <Link
-  //                 to="/login"
-  //                 className="font-medium text-primary transition-all duration-200 underline"
-  //               >
-  //                 Signin 
-  //               </Link>
-  //               &nbsp;
-  //               to read posts
-  //             </h1>
-  //           </div>
-  //         </div>
-  //       </Container>
-  //     </div>
-  //   );
-  // }
   return (
     <div className="w-full py-8">
       <Container>
